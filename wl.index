@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>WL</name>
+		<description>hope this works</description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.4.4">
+			<file name="wl.index" url="https://raw.githubusercontent.com/noasarc/ebFGguc/main/wl.index" />
+		</update>
+	</info>
+	<files>
+		<file name="background%20witchlight.xml" url="https://raw.githubusercontent.com/noasarc/ebFGguc/main/background%20witchlight.xml" />
+	</files>
+</index>
