@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>&lt;?xml version="1.0" encoding="utf-8" ?&gt;</para>
+  <para>&lt;elements&gt;</para>
+  <para>        &lt;info&gt;</para>
+  <para>                &lt;name&gt;Witchlight hand&lt;/name&gt;</para>
+  <para>                &lt;description&gt;Witchlight hand Background&lt;/description&gt;</para>
+  <para>                &lt;update version="0.0.1"&gt;</para>
+  <para>                        &lt;file name="background-witchlight.xml"/&gt;</para>
+  <para>                &lt;/update&gt;</para>
+  <para>        &lt;/info&gt;</para>
+  <para/>
+  <para>        &lt;element name="Witchlight hand" type="Background" source="The Wild Beyond the Witchlight" id="ID_BACKGROUND_WITCHLIGHT_HAND"&gt;</para>
+  <para>                &lt;description&gt;</para>
+  <para>                        &lt;p&gt;You crept into the Witchlight Carnival as a child or youth and never looked back, earning a place among those who work behind the scenes to keep the carnival in business. As a hand, you work hard and party hard. The carnival has borne you to many fantastic worlds, circling back around to your home world once every eight years, but you know almost nothing about these worlds because you spend all your time in the carnival. You know the other hands well, but the carnival's owners-Mister Witch and Mister Light-remain mysterious to you even after all these years.&lt;/p&gt;</para>
+  <para>                        &lt;p class="indent"&gt;Maybe you joined the carnival to escape a dismal life at home, or maybe you were enchanted by the idea of visiting new places or the dream of becoming one of the carnival's star attractions. Now that you're older, carnival life has lost some of its appeal. The daily routine has grown tedious, the cyclical nature of the carnival's journey monotonous. The carnival no longer fills your heart with a sense of wonder. Perhaps greater adventures await you beyond the carnival's gates.&lt;/p&gt;</para>
+  <para>                        &lt;ul class="unstyled"&gt;</para>
+  <para>                                &lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt;Performance, Sleight of Hand&lt;/li&gt;</para>
+  <para>                      &lt;li&gt;&lt;strong&gt;Tool Proficiencies:&lt;/strong&gt;Disguise Kit, or one type of musical instrument&lt;/li&gt;</para>
+  <para>                                &lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt;One of your choice&lt;/li&gt;</para>
+  <para>                                &lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt;A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets table), and a pouch containing 8gp&lt;/li&gt;</para>
+  <para>                        &lt;/ul&gt;</para>
+  <para>                        &lt;div element="ID_BACKGROUND_FEATURE_CARNIVAL_COMPANION" /&gt;</para>
+  <para>                        &lt;h5&gt;SUGGESTED CHARACTERISTICS&lt;/h5&gt;</para>
+  <para>                        &lt;p&gt;These tables, while optional, are well suited to Feywild-themed adventurers and are ideal for any character who has the Witchlight Hand background.&lt;/p&gt;</para>
+  <para>                &lt;/description&gt;</para>
+  <para>                &lt;setters&gt;</para>
+  <para>                        &lt;set name="short"&gt;Performance, Sleight of Hand, 1 Language&lt;/set&gt;</para>
+  <para>                &lt;/setters&gt;</para>
+  <para>                &lt;rules&gt;</para>
+  <para>                        &lt;grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" /&gt;</para>
+  <para>                        &lt;grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHT_OF_HAND" /&gt;</para>
+  <para>                        &lt;select type="Language" name="Language (Witchlight hand)" number="1" supports="Standard||Exotic" /&gt;</para>
+  <para>                        &lt;grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CARNIVAL_COMPANION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/&gt;</para>
+  <para>                  &lt;grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CARNIVAL_FIXTURE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/&gt;</para>
+  <para>                        &lt;select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" /&gt;</para>
+  <para>                        &lt;select type="List" name="Personality Trait" number="2"&gt;</para>
+  <para>                                &lt;item id="1"&gt;        I'm haunted by fey laughter that only I can hear, though I know it's just my mind playing tricks on me.&lt;/item&gt;</para>
+  <para>                                &lt;item id="2"&gt;        Like a nomad, I can't settle down in one place for very long.&lt;/item&gt;</para>
+  <para>                                &lt;item id="3"&gt;Good music makes me weep like a baby.&lt;/item&gt;</para>
+  <para>                                &lt;item id="4"&gt;Wherever I go, I try to bring a little of the warmth and tranquility of home with me.&lt;/item&gt;</para>
+  <para>                                &lt;item id="5"&gt;I have never lost my childlike sense of wonder.&lt;/item&gt;</para>
+  <para>                                &lt;item id="6"&gt;        When I have a new idea, I get wildly excited about it until I come up with another, better idea.&lt;/item&gt;</para>
+  <para>                                &lt;item id="7"&gt;I live by my own set of weird and wonderful rules.&lt;/item&gt;</para>
+  <para>                                &lt;item id="8"&gt;I can't bring myself to trust most adults.&lt;/item&gt;</para>
+  <para>                        &lt;/select&gt;</para>
+  <para>                        &lt;select type="List" name="Ideal"&gt;</para>
+  <para>                                &lt;item id="1"&gt;Empathy. No creature should be made to suffer. (Good)&lt;/item&gt;</para>
+  <para>                                &lt;item id="2"&gt;Wanderlust. I prefer to take the less traveled path. (Chaotic)&lt;/item&gt;</para>
+  <para>                                &lt;item id="3"&gt;Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)&lt;/item&gt;</para>
+  <para>                                &lt;item id="4"&gt;PRule of Three. Everything in the multiverse happens in threes. I see the "rule of three" everywhere. (Lawful)&lt;/item&gt;</para>
+  <para>                                &lt;item id="5"&gt;Obsession. I won't let go of a grudge. (Evil)&lt;/item&gt;</para>
+  <para>                                &lt;item id="6"&gt;        Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)&lt;/item&gt;</para>
+  <para>                        &lt;/select&gt;</para>
+  <para>                        &lt;select type="List" name="Bond"&gt;</para>
+  <para>                                &lt;item id="1"&gt;I would never break my word.&lt;/item&gt;</para>
+  <para>                                &lt;item id="2"&gt;I do what I can to protect the natural world.&lt;/item&gt;</para>
+  <para>                                &lt;item id="3"&gt;I can't bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.&lt;/item&gt;</para>
+  <para>                                &lt;item id="4"&gt;The Witchlight Carnival feels like home to me.&lt;/item&gt;</para>
+  <para>                                &lt;item id="5"&gt;I'm drawn to the Feywild and long to return there, if only for a short while.&lt;/item&gt;</para>
+  <para>                                &lt;item id="6"&gt;I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose.&lt;/item&gt;</para>
+  <para>                        &lt;/select&gt;</para>
+  <para>                        &lt;select type="List" name="Flaw"&gt;</para>
+  <para>                                &lt;item id="1"&gt;I easily lose track of time. My poor sense of time means I'm always late.&lt;/item&gt;</para>
+  <para>                                &lt;item id="2"&gt;I'm a kleptomaniac who covets shiny, sparkling treasure.&lt;/item&gt;</para>
+  <para>                                &lt;item id="3"&gt;I'm forgetful. Sometimes I can't remember even the simplest things.&lt;/item&gt;</para>
+  <para>                                &lt;item id="4"&gt;I never give away anything for free and always expect something in return.&lt;/item&gt;</para>
+  <para>                                &lt;item id="5"&gt;I have many vices and tend to indulge them.&lt;/item&gt;</para>
+  <para>                                &lt;item id="6"&gt;I'm always changing my mind- well, almost always.&lt;/item&gt;</para>
+  <para>                        &lt;/select&gt;</para>
+  <para>                &lt;/rules&gt;</para>
+  <para>        &lt;/element&gt;</para>
+  <para>        </para>
+  <para>        &lt;element name="Feature: Carnival Fixture" type="Background Feature" source="The Wild Beyond the Witchlight" id="ID_BACKGROUND_FEATURE_CARNIVAL_FIXTURE"&gt;</para>
+  <para>                &lt;supports&gt;Background Feature&lt;/supports&gt;</para>
+  <para>                &lt;description&gt;</para>
+  <para>                        &lt;p&gt;The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don't disrupt its shows or cause any other trouble.&lt;/p&gt;</para>
+  <para>                &lt;/description&gt;</para>
+  <para>                &lt;sheet alt="Carnival Fixture" /&gt;</para>
+  <para>        &lt;/element&gt;</para>
+  <para/>
+  <para>          &lt;element name="Feature: Carnival Companion" type="Background Feature" source="The Wild Beyond the Witchlight" id="ID_BACKGROUND_FEATURE_CARNIVAL_COMPANION"&gt;</para>
+  <para>                &lt;supports&gt;Background Feature&lt;/supports&gt;</para>
+  <para>                &lt;description&gt;</para>
+  <para>                        &lt;p&gt;Over the years, you have earned the friendship of another carnival fixture. Roll a d8 and consult the Carnival Companion table to determine whom or what you've befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival.&lt;/p&gt;</para>
+  <para>                        &lt;p class="indent"&gt;The DM can use the Witchlight Hand stat block to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the Monster Manual.&lt;/p&gt;</para>
+  <para>                        &lt;p class="indent"&gt;Posssible companions include: an old, cantankerous Witchlight hand; a young, impressionable Witchlight Hand; a performer (i.e. an acrobat, a clown, or a musician); a retired performer; a seasoned animal trainer; an old blink dog; a cheery sprite; or a harmless, magical wisp of light.&lt;/p&gt;</para>
+  <para>      &lt;/description&gt;</para>
+  <para>                &lt;sheet alt="Carnival Companion" /&gt;</para>
+  <para>        &lt;/element&gt;</para>
+  <para>&lt;/elements&gt;</para>
+</article>
